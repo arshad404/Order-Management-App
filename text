@@ -1,0 +1,45 @@
+Models:
+- Admin information [user1xx]
+- Dealer information (order for Representative/Shopkeeper) [user2xx]
+- Products details
+
+- Shopkeeper information (Dealer) [user3xx]
+    - Products
+- Representative (Dealer) [user4xx]
+
+
+- admin/user
+{
+    "name": "user1"
+    "email": "user1@dltlabs.io"
+    "role": "DEALER"
+    "password": "
+}
+
+git push -u origin development
+
+How to do two way referencing?
+Dealer -> user
+User -> Dealer
+
+
+
+function createOrder() {
+		let order = new OrderDB({
+			batches,
+			totalPrice,
+			orderBy,
+			orderTo,
+			orderConfirm: true
+		});
+		order["history"] = order._id;
+		return order;
+	}
+
+	let orderByDetails = await RepresentativeDB.find({ _id: orderBy });
+	if (orderByDetails) {
+		let order = createOrder();
+		order["orderConfirm"] = false;
+		console.log(order);
+		await ByUpdateDatabase(RepresentativeDB, order);
+	}
