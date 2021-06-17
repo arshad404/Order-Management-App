@@ -19,6 +19,14 @@ npm start
 | 3. Representative |
 | 4. Shopkeeper     |
 
+
+## Things used
+      1. Backend using NodeJs(ExpressJs)
+      2. Database- NoSQL
+      3. Logging- Winston
+      4. Caching- Redis
+      5. Authentication- JWT
+
 ## Refer to this diagram for the database model
 
 ![picture alt](http://via.placeholder.com/200x150)
@@ -72,6 +80,7 @@ npm start
     "winston": "^3.3.3",
     "winston-mongodb": "^5.0.6"
     "nodemon": "^2.0.7"
+
 
 ## Contributing
 
