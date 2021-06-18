@@ -29,7 +29,7 @@ npm start
 
 ## Refer to this diagram for the database model
 
-![picture alt](http://via.placeholder.com/200x150)
+![picture alt](https://github.com/arshad404/Order-Management-App/blob/master/models/models.jpg)
 
 ## Routes
 
