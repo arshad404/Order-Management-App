@@ -80,14 +80,3 @@ npm start
     "winston": "^3.3.3",
     "winston-mongodb": "^5.0.6"
     "nodemon": "^2.0.7"
-
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-```
-
-```
